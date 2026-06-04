@@ -11,9 +11,7 @@ func main() {
 	const conferenceTickets int = 50
 	var remainingTickets uint = 50
 
-	fmt.Printf("Welcome to %s booking application!\n", conferenceName)
-	fmt.Printf("We have a total of %v tickets and %d are still available.\n", conferenceTickets, remainingTickets)
-	fmt.Println("Get your tickets here to attend")
+	greetUsers(conferenceName, conferenceTickets, remainingTickets)
 
 	for {
 		var FirstName string
@@ -75,7 +73,12 @@ func main() {
 				fmt.Println("Your ticket number is not valid.")
 			}
 		}
-
 	}
 
+}
+
+func greetUsers(confName string, confTickets int, remTickets uint) {
+	fmt.Printf("Welcome to %s booking application!\n", confName)
+	fmt.Printf("We have a total of %v tickets and %d are still available.\n", confTickets, remTickets)
+	fmt.Println("Get your tickets here to attend")
 }
