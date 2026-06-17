@@ -13,7 +13,7 @@ func main() {
 
 	res, err := url.Parse(myurl)
 	checkNilError(err)
-
+// Extract and display the scheme, host, and path from the URL.
 	fmt.Println("Scheme: ", res.Scheme)
 	fmt.Println("Host: ", res.Host)
 	fmt.Println("Path: ", res.Path)
