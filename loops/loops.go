@@ -18,4 +18,9 @@ func main() {
 	for _, arr := range a1 {
 		fmt.Println(arr)
 	}
+
+	var n int = 10
+	for (i:=0;i<n;i++){
+		fmt.Println(i)	
+	}
 }
