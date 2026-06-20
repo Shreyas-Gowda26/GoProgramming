@@ -7,7 +7,7 @@ import (
 func main() {
 	fmt.Println("Struct in golang!")
 
-	shreyas := UserData{"Shreyas", "shreyas@example.com", true, 25}
+	shreyas := UserData{"Shreyas", "shreyas@example.com", true, 25} //parameters are passed as in the structure
 	fmt.Printf("The user data is: %+v\n", shreyas)
 }
 
