@@ -14,7 +14,7 @@ func main() {
 	var arr = [3]string{}
 	fmt.Println(arr)
 	arr[0] = FirstName + " " + LastName
-	fmt.Printf("The whole array is: %v\n", arr)
+	fmt.Printf("The array is: %v\n", arr)
 
 	var slice []string
 	slice = append(slice, "Shreyas")
